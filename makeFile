@@ -1,0 +1,5 @@
+josephus.exe: Assignment6.cpp josephus.h josephus_main.cpp
+	g++ -std=c++11 -Wall -Wextra -pedantic -o josephus.exe josephus_main.cpp 
+
+clean:
+	rm *.exe
